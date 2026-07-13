@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "daohang",
+  "main": "worker/index.ts",
+  "compatibility_date": "2025-04-05",
+  "assets": {
+    "not_found_handling": "single-page-application"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "navigation-db",
+      "database_id": "你的D1数据库ID"
+    }
+  ],
+  "vars": {
+    "AUTH_ENABLED": "true",
+    "AUTH_USERNAME": "iceice",
+    "AUTH_PASSWORD": "QWER1237890.iceice",
+    "AUTH_SECRET": "icedjiajdioajoiwfwfy"
+  }
+}
